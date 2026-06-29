@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv('MTUyMTIxNjY2NDEwMjc2ODk1Mg.GzJy29.MkdyADT7NEOp6pcEbsWy2prT78x3USG6-gLA6o')
+TOKEN = os.getenv('MTUyMTIxNjY2NDEwMjc2ODk1Mg.GFcROc.znI0VQ7QCXu_nLODUPMtK1uP7toe8TDyAMKh2E')
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -34,4 +34,4 @@ async def usuario(ctx):
     embed.add_field(name="ID", value=ctx.author.id, inline=False)
     await ctx.send(embed=embed)
 
-bot.run(MTUyMTIxNjY2NDEwMjc2ODk1Mg.GzJy29.MkdyADT7NEOp6pcEbsWy2prT78x3USG6-gLA6o)
+bot.run(MTUyMTIxNjY2NDEwMjc2ODk1Mg.GFcROc.znI0VQ7QCXu_nLODUPMtK1uP7toe8TDyAMKh2E)
