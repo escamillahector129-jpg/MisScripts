@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv('MTUyMTIxNjY2NDEwMjc2ODk1Mg.GlFCIm.ePY0eXIlHT7IQ2cMnkOcyGlTjfM-NMHCSBPL7A')
+TOKEN = os.getenv('MTUyMTIxNjY2NDEwMjc2ODk1Mg.GzJy29.MkdyADT7NEOp6pcEbsWy2prT78x3USG6-gLA6o')
 
 intents = discord.Intents.default()
 intents.message_content = True
